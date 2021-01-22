@@ -13,8 +13,10 @@ If you have questions or need help, please ask in [GitHub Discussions](https://g
 
 ## Quick Overview
 
+> This is a maintained fork of `react-scripts` with TailwindCSS setup.
+
 ```sh
-npx create-react-app my-app
+npm init react-app my-app --scripts-version=@agney/rs-tailwind --template=tailwind
 cd my-app
 npm start
 ```
